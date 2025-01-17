@@ -1,0 +1,10 @@
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\CMAKEFILES\52B8776B488D75FDC6BE6DF01AFEB6BA\GENERATE.STAMP.RULE
+setlocal
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe "-SD:/NULP/SEM 3/Coursework/Coursework/Coursework" "-BD:/NULP/SEM 3/Coursework/Coursework/Coursework/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/chess_module.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

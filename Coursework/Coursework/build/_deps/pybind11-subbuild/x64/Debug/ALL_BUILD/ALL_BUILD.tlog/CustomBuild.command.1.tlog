@@ -1,0 +1,10 @@
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe "-SD:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild" "-BD:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild" --check-stamp-file "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

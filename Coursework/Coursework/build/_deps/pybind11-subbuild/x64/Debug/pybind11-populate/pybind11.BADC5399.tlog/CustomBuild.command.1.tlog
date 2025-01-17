@@ -1,0 +1,150 @@
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\91163762ABBC676718220F5D1D8412C7\PYBIND11-POPULATE-MKDIR.RULE
+setlocal
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -Dcfgdir=/Debug -P "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/tmp/pybind11-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/Debug/pybind11-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\91163762ABBC676718220F5D1D8412C7\PYBIND11-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "D:\NULP\SEM 3\Coursework\Coursework\Coursework\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/tmp/pybind11-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/Debug/pybind11-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\91163762ABBC676718220F5D1D8412C7\PYBIND11-POPULATE-UPDATE.RULE
+setlocal
+cd "D:\NULP\SEM 3\Coursework\Coursework\Coursework\build\_deps\pybind11-src"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/tmp/pybind11-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\91163762ABBC676718220F5D1D8412C7\PYBIND11-POPULATE-PATCH.RULE
+setlocal
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/Debug/pybind11-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\91163762ABBC676718220F5D1D8412C7\PYBIND11-POPULATE-CONFIGURE.RULE
+setlocal
+cd "D:\NULP\SEM 3\Coursework\Coursework\Coursework\build\_deps\pybind11-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/Debug/pybind11-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\91163762ABBC676718220F5D1D8412C7\PYBIND11-POPULATE-BUILD.RULE
+setlocal
+cd "D:\NULP\SEM 3\Coursework\Coursework\Coursework\build\_deps\pybind11-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/Debug/pybind11-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\91163762ABBC676718220F5D1D8412C7\PYBIND11-POPULATE-INSTALL.RULE
+setlocal
+cd "D:\NULP\SEM 3\Coursework\Coursework\Coursework\build\_deps\pybind11-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/Debug/pybind11-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\91163762ABBC676718220F5D1D8412C7\PYBIND11-POPULATE-TEST.RULE
+setlocal
+cd "D:\NULP\SEM 3\Coursework\Coursework\Coursework\build\_deps\pybind11-build"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/Debug/pybind11-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\A431907672C698B8C6A21AAE3FAD633F\PYBIND11-POPULATE-COMPLETE.RULE
+setlocal
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E make_directory "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/CMakeFiles/Debug/pybind11-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe -E touch "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/pybind11-populate-prefix/src/pybind11-populate-stamp/Debug/pybind11-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKEFILES\686103BB8EDEB935C8114C659003DF1F\PYBIND11-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\NULP\SEM 3\COURSEWORK\COURSEWORK\COURSEWORK\BUILD\_DEPS\PYBIND11-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\Users\Soul\AppData\Local\Programs\cmake-3.31.3-windows-x86_64\bin\cmake.exe "-SD:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild" "-BD:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild" --check-stamp-file "D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

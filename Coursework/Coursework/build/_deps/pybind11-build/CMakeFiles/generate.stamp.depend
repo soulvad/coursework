@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakeDependentOption.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/FindPythonInterp.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/GNUInstallDirs.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/Soul/AppData/Local/Programs/cmake-3.31.3-windows-x86_64/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
+D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-src/CMakeLists.txt
+D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-src/tools/FindPythonLibsNew.cmake
+D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-src/tools/JoinPaths.cmake
+D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-src/tools/pybind11Common.cmake
+D:/NULP/SEM 3/Coursework/Coursework/Coursework/build/_deps/pybind11-src/tools/pybind11Tools.cmake
